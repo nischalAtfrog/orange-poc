@@ -1,5 +1,11 @@
 const Home = () => {
-    return <div>Home</div>;
+    return (
+   
+    <main className="max-w-screen min-h-screen bg-black mx-auto text-white">
+        Home 
+    </main>
+    
+    );
 };
 
 export default Home;

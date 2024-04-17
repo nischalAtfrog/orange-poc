@@ -2,6 +2,7 @@ import './App.css';
 import { useRoutes } from 'react-router-dom';
 import Dashboard from './pages/dashboard';
 import Home from './pages/home';
+import React from 'react';
 
 function App() {
     const element = useRoutes([
@@ -15,7 +16,7 @@ function App() {
         },
     ]);
 
-    return <main>{element}</main>;
+    return <React.Fragment>{element}</React.Fragment>;
 }
 
 export default App;
